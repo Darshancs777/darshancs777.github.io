@@ -538,31 +538,33 @@ section{
     transform: scale(1.01) translateY(-5px);
     color: #ffee10;
 }
-
-.contact-icons i {
-    display: inline-flex;
-    justify-content: center;
+.contact-icons {
+    display: flex;
     align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid #ffee10;
-    border-radius: 50%;
-    font-size: 20px;
-    color: #ffee10;
-    text-decoration: none;
-    margin: 25px 10px 20px 0;
-    transition: .5s ease;
-    opacity: 0;
-    animation: slideLeft 1s ease forwards;
-    animation-delay: calc(.2s * var(--1));
+    gap: 10px; /* Adjust the spacing between items as needed */
+
+
+ 
 }
 
-.contact-icons i:hover {
+
+.contact-icons h3 {
+    margin: 0; /* Remove default margin */
+}
+
+.contact-icons a {
+    display: inline-block;
+    color: #ffee10;
+    font-size: 24px; /* Adjust the icon size as needed */
+}
+
+
+
+/* .contact-icons i:hover {
     color: #ffee10;
     background: #333;
     box-shadow: 0 0 15px #ffee10;
-}
+} */
 
 
 
